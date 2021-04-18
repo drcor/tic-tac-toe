@@ -37,16 +37,16 @@ Partial Class EndGameForm
         'LblTitle
         '
         Me.LblTitle.AutoSize = True
-        Me.LblTitle.Font = New System.Drawing.Font("Segoe UI", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.LblTitle.Font = New System.Drawing.Font("Britannic Bold", 28.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.LblTitle.Location = New System.Drawing.Point(32, 33)
         Me.LblTitle.Name = "LblTitle"
-        Me.LblTitle.Size = New System.Drawing.Size(359, 81)
+        Me.LblTitle.Size = New System.Drawing.Size(270, 52)
         Me.LblTitle.TabIndex = 0
         Me.LblTitle.Text = "Fim do Jogo"
         '
         'BtnNovaSerie
         '
-        Me.BtnNovaSerie.Location = New System.Drawing.Point(312, 333)
+        Me.BtnNovaSerie.Location = New System.Drawing.Point(314, 345)
         Me.BtnNovaSerie.Name = "BtnNovaSerie"
         Me.BtnNovaSerie.Size = New System.Drawing.Size(191, 49)
         Me.BtnNovaSerie.TabIndex = 1
@@ -55,7 +55,7 @@ Partial Class EndGameForm
         '
         'BtnNovoJogo
         '
-        Me.BtnNovoJogo.Location = New System.Drawing.Point(529, 333)
+        Me.BtnNovoJogo.Location = New System.Drawing.Point(531, 345)
         Me.BtnNovoJogo.Name = "BtnNovoJogo"
         Me.BtnNovoJogo.Size = New System.Drawing.Size(191, 49)
         Me.BtnNovoJogo.TabIndex = 2
@@ -65,7 +65,7 @@ Partial Class EndGameForm
         'LblJogador1
         '
         Me.LblJogador1.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.LblJogador1.Location = New System.Drawing.Point(81, 204)
+        Me.LblJogador1.Location = New System.Drawing.Point(83, 216)
         Me.LblJogador1.Name = "LblJogador1"
         Me.LblJogador1.Size = New System.Drawing.Size(166, 28)
         Me.LblJogador1.TabIndex = 3
@@ -74,7 +74,7 @@ Partial Class EndGameForm
         'LblJogador2
         '
         Me.LblJogador2.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.LblJogador2.Location = New System.Drawing.Point(81, 253)
+        Me.LblJogador2.Location = New System.Drawing.Point(83, 265)
         Me.LblJogador2.Name = "LblJogador2"
         Me.LblJogador2.Size = New System.Drawing.Size(166, 28)
         Me.LblJogador2.TabIndex = 4
@@ -83,7 +83,7 @@ Partial Class EndGameForm
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(52, 170)
+        Me.Label1.Location = New System.Drawing.Point(54, 182)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(81, 20)
         Me.Label1.TabIndex = 5
@@ -92,7 +92,7 @@ Partial Class EndGameForm
         'LblPontuacao1
         '
         Me.LblPontuacao1.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.LblPontuacao1.Location = New System.Drawing.Point(289, 208)
+        Me.LblPontuacao1.Location = New System.Drawing.Point(291, 220)
         Me.LblPontuacao1.Name = "LblPontuacao1"
         Me.LblPontuacao1.Size = New System.Drawing.Size(54, 25)
         Me.LblPontuacao1.TabIndex = 6
@@ -102,7 +102,7 @@ Partial Class EndGameForm
         'LblPontuacao2
         '
         Me.LblPontuacao2.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.LblPontuacao2.Location = New System.Drawing.Point(289, 257)
+        Me.LblPontuacao2.Location = New System.Drawing.Point(291, 269)
         Me.LblPontuacao2.Name = "LblPontuacao2"
         Me.LblPontuacao2.Size = New System.Drawing.Size(54, 20)
         Me.LblPontuacao2.TabIndex = 7
@@ -111,17 +111,17 @@ Partial Class EndGameForm
         '
         'BtnSair
         '
-        Me.BtnSair.Location = New System.Drawing.Point(32, 345)
+        Me.BtnSair.Location = New System.Drawing.Point(34, 357)
         Me.BtnSair.Name = "BtnSair"
-        Me.BtnSair.Size = New System.Drawing.Size(73, 37)
+        Me.BtnSair.Size = New System.Drawing.Size(101, 37)
         Me.BtnSair.TabIndex = 8
         Me.BtnSair.Text = "Sair"
         Me.BtnSair.UseVisualStyleBackColor = True
         '
         'LblStatus
         '
-        Me.LblStatus.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.LblStatus.Location = New System.Drawing.Point(413, 160)
+        Me.LblStatus.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.LblStatus.Location = New System.Drawing.Point(453, 130)
         Me.LblStatus.Name = "LblStatus"
         Me.LblStatus.Size = New System.Drawing.Size(269, 30)
         Me.LblStatus.TabIndex = 9
@@ -144,6 +144,10 @@ Partial Class EndGameForm
         Me.Controls.Add(Me.BtnNovoJogo)
         Me.Controls.Add(Me.BtnNovaSerie)
         Me.Controls.Add(Me.LblTitle)
+        Me.MaximizeBox = False
+        Me.MaximumSize = New System.Drawing.Size(776, 466)
+        Me.MinimizeBox = False
+        Me.MinimumSize = New System.Drawing.Size(776, 466)
         Me.Name = "EndGameForm"
         Me.Text = "Fim do Jogo"
         Me.ResumeLayout(False)

@@ -7,8 +7,8 @@
 
     ' Alteracao do design consuante tipo de jogo
     Private Sub RdbComputer_CheckedChanged(sender As Object, e As EventArgs) Handles RdbComputer.CheckedChanged
-        ' Verificar opcao VS computador
-        If RdbComputer.Checked = True Then
+        ' Verificar tipo de jogo
+        If RdbComputer.Checked = True Then  ' Jogo com o Computador
             GrbNivel.Visible = True
             GrbTipoJogo.Width = 268
             TxtNickJogador2.Text = "Computador"

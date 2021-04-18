@@ -80,16 +80,16 @@ Partial Class InitialForm
         Me.GrbNivel.Size = New System.Drawing.Size(241, 130)
         Me.GrbNivel.TabIndex = 1
         Me.GrbNivel.TabStop = False
-        Me.GrbNivel.Text = "Nivel de dificudade"
+        Me.GrbNivel.Text = "Nível de dificuldade"
         '
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
         Me.RadioButton1.Location = New System.Drawing.Point(32, 84)
         Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(69, 24)
+        Me.RadioButton1.Size = New System.Drawing.Size(100, 24)
         Me.RadioButton1.TabIndex = 1
-        Me.RadioButton1.Text = "Dificil"
+        Me.RadioButton1.Text = "Impossível"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
         'RdbNivelFacil
@@ -101,7 +101,7 @@ Partial Class InitialForm
         Me.RdbNivelFacil.Size = New System.Drawing.Size(59, 24)
         Me.RdbNivelFacil.TabIndex = 0
         Me.RdbNivelFacil.TabStop = True
-        Me.RdbNivelFacil.Text = "Facil"
+        Me.RdbNivelFacil.Text = "Fácil"
         Me.RdbNivelFacil.UseVisualStyleBackColor = True
         '
         'BtnJogar
@@ -163,7 +163,6 @@ Partial Class InitialForm
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(590, 350)
-        Me.ControlBox = False
         Me.Controls.Add(Me.LblTitleJogador1)
         Me.Controls.Add(Me.TxtNickJogador1)
         Me.Controls.Add(Me.LblTitleJogador2)
@@ -173,8 +172,11 @@ Partial Class InitialForm
         Me.Controls.Add(Me.GrbNivel)
         Me.Controls.Add(Me.GrbTipoJogo)
         Me.MaximizeBox = False
+        Me.MaximumSize = New System.Drawing.Size(608, 397)
         Me.MinimizeBox = False
+        Me.MinimumSize = New System.Drawing.Size(608, 397)
         Me.Name = "InitialForm"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Jogo do Galo"
         Me.GrbTipoJogo.ResumeLayout(False)
         Me.GrbTipoJogo.PerformLayout()
